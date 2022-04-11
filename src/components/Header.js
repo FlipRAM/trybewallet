@@ -39,7 +39,6 @@ class Header extends React.Component {
             data-testid="email-field"
           >
             { email }
-            feliperangel@live.com.pt
           </p>
         </div>
         <div className={ styles.TotalExpenses }>
