@@ -1,0 +1,37 @@
+.HeaderContainer {
+  background-color: var(--black);
+  color: var(--main-color);
+  display: flex;
+  flex-flow: row nowrap;
+  height: 3rem;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.IconContainer {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.Icon {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 40px;
+}
+
+.Icon span {
+  font-size: 1.6rem;
+}
+
+.TotalExpenses {
+  align-items: center;
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 1rem;
+  justify-content: center;
+  min-width: 150px;
+}

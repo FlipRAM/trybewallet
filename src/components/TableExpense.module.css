@@ -1,0 +1,60 @@
+.TableContainer {
+  overflow-x: auto;
+}
+
+
+.Table {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.Table th {
+  padding: 8px;
+}
+
+.Table td {
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child( even ) {
+  background-color: #f2f2f2;
+}
+
+.btnEdit {
+  background: var(--secondary-color);
+  border: none;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  color: var(--main-color);
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 4px;
+  padding: 0.3rem 0.6rem;
+  transition: 0.1s;
+  width: 4rem;
+}
+
+.btnEdit:active {
+  box-shadow: 0 4px 4px var(--greenStrange);
+}
+
+.btnRemove {
+  background: red;
+  border: none;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  color: var(--main-color);
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 4px;
+  padding: 0.3rem 0.6rem;
+  transition: 0.1s;
+  width: 4rem;
+}
+
+.btnRemove:active {
+  box-shadow: 0 4px 4px var(--greenStrange);
+}

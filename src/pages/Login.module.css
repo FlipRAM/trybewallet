@@ -1,0 +1,66 @@
+.container {
+  align-items: center;
+  background-color: var(--main-color);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  height: 350px;
+  justify-content: center;
+  width: 300px;
+}
+
+.label {
+  margin-bottom: 12px;
+  position: relative;
+  width: 90%;
+}
+
+.input {
+  background-color: var(--black);
+  border: 1px solid var(--black);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  color: var(--main-color);
+  font-size: 18px;
+  outline: none;
+  padding: 12px 24px;
+  width: 100%;
+}
+
+.btn_login {
+  background: var(--secondary-color);
+  border: none;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  color: var(--black);
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0.8rem 1.6rem;
+  transition: 0.1s;
+  width: 90%;
+}
+
+.btn_login:active {
+  box-shadow: 0 4px 4px var(--greenStrange);
+}
+
+.btn_pass {
+  background: var(--black);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  right: 16px;
+  top: 12px;
+}
+
+.btn_pass svg {
+  color: var(--secondary-color);
+}
