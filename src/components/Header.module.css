@@ -6,6 +6,10 @@
   height: 3rem;
   justify-content: space-between;
   margin-bottom: 24px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .IconContainer {

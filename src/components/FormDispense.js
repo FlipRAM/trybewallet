@@ -83,6 +83,7 @@ class FormDispense extends React.Component {
         id: id + 1,
         value: '',
         description: '',
+        editData: false,
       }, () => editExpenseForm(expensesList, editData, id));
     }
   }

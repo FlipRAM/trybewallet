@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import FormDispense from '../components/FormDispense';
 import TableExpense from '../components/TableExpense';
 import { fetchCurrencies } from '../actions';
-// import styles from './Wallet.module.css';
+import styles from './Wallet.module.css';
 
 class Wallet extends React.Component {
   componentDidMount() {
@@ -19,8 +19,14 @@ class Wallet extends React.Component {
     return (
       <main>
         <Header />
-        <FormDispense />
-        <TableExpense />
+        <div className={ styles.ContentContainer }>
+          <div className={ styles.Item1 }>
+            <FormDispense />
+          </div>
+          <div className={ styles.Item2 }>
+            <TableExpense />
+          </div>
+        </div>
       </main>
     );
   }
